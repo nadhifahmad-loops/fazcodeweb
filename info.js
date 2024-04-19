@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (width <= 426 || width <= 768) {
             tl.to("#foto3", { left: "30%", top: "175%" }, 'orange');
-            tl2.to("#foto3", { width: "10%", left: "35%", top: (width <= 426) ? "232%" : "222%" }, 'ca');
+            tl2.to("#foto3", { width: "10%", left: "35%", top: (width <= 426) ? "250%" : "240%" }, 'ca');
             tl.to("#foto4", { top: "160%", left: "10%" }, 'orange');
-            tl2.to("#foto4", { width: "20%", top: "240%", left: "41%" }, 'ca');
+            tl2.to("#foto4", { width: "20%", top: "262%", left: "41%" }, 'ca');
             tl.to("#foto5", { width: "20%", top: "165%", right: "10%" }, 'orange');
         } else {
             tl.to("#foto4", { top: "120%", left: "10%" }, 'orange');

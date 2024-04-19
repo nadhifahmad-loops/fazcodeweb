@@ -286,10 +286,10 @@ nav button {
     position: absolute;
     display: flex;
     top: 293%;
+    padding-top: 100px;
     gap: 5px;
 }
-.div-refresh button {
-
+.div-refresh button {  
     padding: 2px;
     cursor: pointer;
 }
